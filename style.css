@@ -1,0 +1,552 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    width: 100%;
+    height: 100hv;
+
+}
+
+h2 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    color: #000000;
+}
+
+p{
+    z-index: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background: #F9F6F5;
+    width: 100%;
+}
+.header_logo{
+    width: 128px;
+    height: 25px;
+    margin-left: 6.9%;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 376px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+    height: 24px;
+    margin-right: 6.9%;
+}
+
+.best_cosmetic_products {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    background: #F9F6F5;
+    width: 100%;
+}
+.best_cosmetic_products_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 45%;
+    margin-left: 6.9%;
+}
+.best_cosmetic_products_info p{
+    max-width: 516px;
+}
+.information {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+    margin-top: 0%;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    width: 326px;
+    height: 48px;
+    background-color: white;
+    margin-top: 30px;
+}
+.search input{
+    width: 326px;
+    height: 48px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    padding-left: 16px;
+    border: none;
+}
+.search img{
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.shop_now {
+    width: 148px;
+    min-height: 56px;
+    background: #402F2C;
+    border: none;
+    color: white;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-bottom: 109px;
+}
+.best_cosmetic_products_media{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+.bcp_media_button{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background: #F9F6F5;
+    position: absolute;
+    width: 145px;
+    height: 138px;
+    z-index: 1;
+
+}
+.bcp_media_button img{
+    width: 40px;
+    height: 40px;
+}
+.to_right{
+    rotate: 180deg;
+}
+.bcp_media_button .to_right{
+    margin-left: 16px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1172px;
+    height: 113px;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    margin: 130px auto;
+}
+.links img{
+    height: 28px;
+}
+
+.popular_products{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6.9%;
+    margin-right: 6.9%;
+    margin-top: 130px;
+    width: 1240px;
+    height: 1037px;
+    margin-bottom: 280px;
+}
+.popular_products p{
+    z-index: 1;
+}
+.popular_products_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 120px;
+    height: 165px;
+}
+.popular_products_header_info{
+    max-height: 165px;
+    max-width: 714px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.popular_products_header_info h2{
+    margin-bottom: 20px;
+}
+.discover_products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #222222;
+    height: 35px;
+}
+.discover_products img{
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+}
+.popular_products_products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.popular_products_products_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 812px;
+    width: 600px;
+    margin: 0%;
+    padding-bottom: 10px;
+    border: 1px solid rgba(104, 90, 82, 0.19);
+}
+.popular_products_products_col_info{
+    margin: 0px 32px 8px 32px;
+    width: 812px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.a{
+    max-width: 516px;
+}
+h3{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #222222;
+
+}
+.popular_products_products_col_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 536px;
+}
+.popular_products_products_col_buttons p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: right;
+    color: #222222;
+    margin-left: 149px;
+}
+.buy_now{
+    width: 137px;
+    height: 56px;
+    background: #402F2C;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+.add_to_cart{
+    width: 162px;
+    height: 56px;
+    border: 1px solid rgba(104, 90, 82, 0.46);
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #402F2C;
+    background: white;
+}
+
+.sales_data{
+    width: 100%;
+    height: 250px;
+    background: #FDF8F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 280px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+}
+.sales_data div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.data{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-decoration-line: underline;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.perfect_beauty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin-left: 0%;
+    margin-bottom: 280px;
+}
+.perfect_beauty_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 630px;
+    height: 600px;
+    margin-right: 32px;
+}
+.perfect_beauty_info button{
+    margin-top: 0%;
+}
+.perfect_beauty_info p{
+    max-width: 688px;
+    margin-right: 42px;
+
+}
+
+h4{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #222222;
+    margin-bottom: 0%;
+}
+.amazing_cosmetic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin-left: 0%;
+    margin-bottom: 280px;
+}
+.amazing_cosmetic_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 630px;
+    height: 600px;
+    margin-left: 32px;
+}
+.amazing_cosmetic_info_up{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.amazing_cosmetic_info_up_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 73px;
+    height: 76px;
+}
+.amazing_cosmetic_info_up_p{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.amazing_cosmetic_info_up_group img{
+    width: 168px;
+    height: 24px;
+    margin-top: 12px;
+}
+.amazing_cosmetic_info_down_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.amazing_cosmetic_info_down_buttons_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.amazing_cosmetic_info_down_buttons_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.z1{
+    z-index: 1;
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FAFAFA;
+    width: 100%;
+    height: 545px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    height: 218px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.subscribe p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #222222
+}
+.subscribe input{
+    width: 386px;
+    height: 56px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    padding-left: 16px;
+    border: none;
+}
+.subscribe button{
+    z-index: 1;
+    width: 103px;
+    height: 40px;
+    background: #402F2C;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 1450px;
+}
+.footer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 327px;
+    margin-top: 30px;
+}
+
+.footer_info_col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: flex-end;
+    max-height: 216px;
+    max-width: 326px;
+}
+.footer_info_col p{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+}
+.footer_info_col img{
+    margin-bottom: 14px;
+    margin-top: 34px;
+    width: 213px;
+    height: 50px;
+}
+.footer_info_col_info{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+h5{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+}
+.footer_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 0px;
+    height: 12.84px;
+}
+.footer_media img{
+    width: 12.84px;
+    height: 12.84px;
+}
+.margin0{
+    margin-bottom: 0%;
+}
